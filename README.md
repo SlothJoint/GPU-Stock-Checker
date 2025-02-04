@@ -27,12 +27,6 @@ TELEGRAM_CHAT_ID: Your Telegram chat ID.
 
 CHROMEDRIVER_PATH: Path to your ChromeDriver executable.
 
-Alternatively, you can use environment variables instead of modifying the script directly:
-
-export TELEGRAM_BOT_TOKEN="your_token_here"
-export TELEGRAM_CHAT_ID="your_chat_id_here"
-export CHROMEDRIVER_PATH="path_to_chromedriver"
-
 4️⃣ Run the Script
 
 Start checking for stock by running:
