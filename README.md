@@ -2,33 +2,10 @@ NVIDIA RTX 5090 Stock Checker 🚀
 
 This script checks the NVIDIA store for RTX 5090 availability and sends a notification via Telegram when the GPU is in stock.
 
-📥 Installation & Usage
+🔔 Configuring Notifications
 
-1️⃣ Clone the Repository
+To enable Telegram notifications, you need to set up your own Telegram bot. Follow the instructions here (https://core.telegram.org/bots/tutorial) to create a bot and obtain the required credentials.
 
-To get started, open a terminal and run:
+🔍 Obtaining the NVIDIA API URL
 
-git clone https://github.com/SlothJoint/GPU-Stock-Checker.git
-cd GPU-Stock-Checker
-
-2️⃣ Install Dependencies
-
-Make sure you have Python 3 installed, then run:
-
-pip3 install -r requirements.txt
-
-3️⃣ Configure Environment Variables
-
-Before running the script, update the following values inside the script:
-
-TELEGRAM_BOT_TOKEN: Your Telegram bot API token.
-
-TELEGRAM_CHAT_ID: Your Telegram chat ID.
-
-CHROMEDRIVER_PATH: Path to your ChromeDriver executable.
-
-4️⃣ Run the Script
-
-Start checking for stock by running:
-
-python3 nvidia_stock_checker.py
+The script requires the NVIDIA API URL to check stock availability. You can find the necessary stock and purchase links in this GitHub discussion(https://github.com/jef/streetmerchant/issues/4). These links are used in the script on lines 15 and 16.
